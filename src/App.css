@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 7fr;
+ 
+ 
+}
+
+.sidebar{
+  background-color: black;  
+  height: 100vh;
+  border-right: 2px solid white;
+ 
+}
+.menu{
+  padding-top: 40px;
+  background-color: black;
+  font-size: 30px;
+  color: white;
+  
+}
+.content{
+  background-color: black;
+  height: 100vh;
+  color: wheat;
+}
+.wide{
+  background-color: black;
+  height: 100vh;
+  color: wheat;
+  width: 100vw;
+}
+
+
+.View{
+  display: none;
+  
+}
+@media only screen and (max-width: 700px) {
+  .container{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    width: 100%;
+  }
+  .menu{
+    padding-top: 20px;
+    background-color: black;
+    font-size: 18px;
+    color: white;
+  }
+}

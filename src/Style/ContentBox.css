@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+.conatiner_Box{
+    display: flex;
+    align-items: flex-start;
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.sec_name{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.card_conatiner{
+    display: flex;
+    width: 60vw;
+   align-items: center;
+   justify-content: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 700px) {
+    .conatiner_Box{
+        display: flex;
+        align-items: flex-start;
+    }
+    .section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .sec_name{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        margin-top: 15px;
+        padding-left: 15px;
+    }
+    .card_conatiner{
+        display: flex;
+     
+        width: 60vw;
+       align-items: center;
+       justify-content: center;
+        gap: 7px;
+    }
+  }
